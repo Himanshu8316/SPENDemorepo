@@ -8,7 +8,7 @@ Suite Teardown        Close All Browsers
 *** Test Cases ***
 crerate lead01
     [Tags]            regression            smoke          lead
-    Log To Console    crerate lead01
+    Log To Console    crerate lead02
 
 crerate lead02
     [Tags]            regression            lead
