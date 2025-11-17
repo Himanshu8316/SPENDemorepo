@@ -12,7 +12,8 @@ Determine login
             Login    ${loginurlQA}    ${usernameQA}    ${passwordQA}
         ELSEIF       ${loginUrl}==${loginurlStage}
             Login    ${loginurlStage}    ${usernameStage}    ${passwordStage}
-        END
+        ELSE
+            Login    ${login_url}    ${username}    ${password}
     END
             
 
