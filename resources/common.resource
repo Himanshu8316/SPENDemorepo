@@ -9,6 +9,8 @@ Suite Teardown        Close All Browsers
 Determine login 
     IF    ${loginUrl}!=${EMPTY}        
         IF    ${loginUrl}==${loginurlQA}
+            Login    ${loginurlQA}    ${usernameQA}    ${passwordQA}
+        ELSE
             
 
 
