@@ -8,7 +8,7 @@ Suite Teardown        Close All Browsers
 *** Keywords *** ***
 Determine login Strategy
     [Tags]            regression            smoke          account
-    Log To Console    crerate account01
+    
 
 crerate account02
     [Tags]            regression            account
