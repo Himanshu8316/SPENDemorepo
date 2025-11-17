@@ -5,6 +5,8 @@ Library               QWeb
 Suite Setup           Open Browser          about:blank    chrome
 Suite Teardown        Close All Browsers
 
+*** Variables ***
+${name}               test
 *** Test Cases ***
 crerate account01
     [Tags]            regression            smoke          account
