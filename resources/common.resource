@@ -10,7 +10,10 @@ Determine login
     IF    ${loginUrl}!=${EMPTY}        
         IF    ${loginUrl}==${loginurlQA}
             Login    ${loginurlQA}    ${usernameQA}    ${passwordQA}
-        ELSE
+        ELSEIF       ${loginUrl}==${loginurlStage}
+            Login    ${loginurlStage}    ${usernameStage}    ${passwordStage}
+        END
+    END
             
 
 
