@@ -6,7 +6,14 @@ Suite Setup           Open Browser          about:blank    chrome
 Suite Teardown        Close All Browsers
 
 *** Keywords *** ***
+Determine login 
+    IF    ${loginUrl}!=${EMPTY}        
+        IF    ${loginUrl}==${loginurlQA}
+            
+
+
 Login
+    [Arguments]    ${login_url}    ${username}    ${password}
     GoTo    ${login_url}
     Typetext        username    ${username}
     Typetext        password    ${password}
