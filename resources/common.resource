@@ -6,8 +6,10 @@ Suite Setup           Open Browser          about:blank    chrome
 Suite Teardown        Close All Browsers
 
 *** Keywords *** ***
-Determine login Strategy
-    [Tags]            regression            smoke          account
+Login
+    GoTo    ${login_url}
+    Typetext        username    ${username}
+    Typetext        password    ${password}
     
 
 crerate account02
