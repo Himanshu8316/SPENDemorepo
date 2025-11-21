@@ -9,9 +9,9 @@ Suite Teardown        Close All Browsers
 ${name}               test
 *** Test Cases ***
 crerate account01
-    [Tags]            regression                      account    QA    Stage    UAT
+    [Tags]            regression            account        QA        Stage    UAT
     Log To Console    crerate account01
 
 crerate account02
-    [Tags]            regression            account        Stage    UAT    smoke
+    [Tags]            regression            account        Stage     UAT      smoke
     Log To Console    crerate account01
