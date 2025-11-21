@@ -9,7 +9,7 @@ Suite Teardown        Close All Browsers
 ${name}               test
 *** Test Cases ***
 test01
-    [Tags]            feature001            regression
+    [Tags]            feature001            regression    deployment
     Log To Console    crerate account01
 
 Test02
