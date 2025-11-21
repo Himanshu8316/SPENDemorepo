@@ -9,9 +9,9 @@ Suite Teardown        Close All Browsers
 ${name}               test
 *** Test Cases ***
 test01
-    [Tags]            feature001            smoke
+    [Tags]            feature001            regression
     Log To Console    crerate account01
 
 Test02
-    [Tags]            feature001            smoke
+    [Tags]            feature001             regression
     Log To Console    crerate account01
